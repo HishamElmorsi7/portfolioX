@@ -44,7 +44,7 @@ export default function Home() {
               <div className="text-xs tracking-widest text-neutral-500 uppercase">connect</div>
               <div className="space-y-2">
                 <ContactLink icon={<Mail size={16} />} text="hmelmorsi@gmail.com" href="mailto:hmelmorsi@gmail.com" />
-                <ContactLink icon={<Phone size={16} />} text="+201119063524" href="tel:+201119063524" />
+                <ContactLink icon={<Phone size={16} />} text="+201156007422" href="tel:+201156007422" />
                 <ContactLink icon={<MapPin size={16} />} text="Cairo, Egypt" href="#" />
               </div>
             </div>
