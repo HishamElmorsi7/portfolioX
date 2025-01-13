@@ -145,21 +145,25 @@ export default function Home() {
                   title="99hired"
                   tech="Node.js, Express, MongoDB"
                   description="Job board platform for backend developers in the Middle East"
+                  link="https://99hired.tech"
                 />
                 <ProjectCard 
                   title="JobScraper"
                   tech="Node.js, Cheerio"
                   description="Automated scraper for backend development positions"
+                  link="https://github.com/HishamElmorsi7/JobScraper"
                 />
                 <ProjectCard 
-                  title="Auth System"
+                  title="MVC Mini Framework"
                   tech="Node.js, Express"
-                  description="Custom authentication system with security best practices"
+                  description="A mini PHP framework with built-in CRUD App"
+                  link="https://github.com/HishamElmorsi7/mvc_mini_framework"
                 />
                 <ProjectCard 
                   title="KnightTravils"
                   tech="Ruby"
                   description="Chess pathfinding algorithm implementation using BFS"
+                  link="https://github.com/HishamElmorsi7/Knights_Travils/blob/master/knights_travils.rb"
                 />
               </div>
             </Section>
@@ -222,9 +226,9 @@ function SkillGroup({ title, items }) {
   )
 }
 
-function ProjectCard({ title, tech, description }) {
+function ProjectCard({ title, tech, description, link }) {
   return (
-    <a href={`https://github.com/hishamelmorsi7/${title.toLowerCase()}`} target="_blank" rel="noopener noreferrer">
+    <a href={link} target="_blank" rel="noopener noreferrer">
       <Card className="p-6 bg-neutral-900/50 border-neutral-800 hover:border-neutral-700 group transition-all duration-300">
         <h3 className="text-xl font-light mb-2 group-hover:text-white transition-colors">{title}</h3>
         <p className="text-sm text-neutral-500 mb-3 group-hover:text-neutral-400 transition-colors">{tech}</p>
