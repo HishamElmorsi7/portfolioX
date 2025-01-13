@@ -132,7 +132,7 @@ export default function Home() {
                 <SkillGroup title="Languages" items={['JavaScript (Node)', 'Ruby', 'PHP']} />
                 <SkillGroup title="Databases" items={['MongoDB', 'MySQL']} />
                 <SkillGroup title="Frameworks" items={['Express', 'React', 'Next.js']} />
-                <SkillGroup title="Tools" items={['Git', 'GitHub']} />
+                <SkillGroup title="Tools" items={['Git', 'GitHub', 'Docker']} />
                 <SkillGroup title="Practices" items={['OOP', 'Design Patterns']} />
                 <SkillGroup title="Soft Skills" items={['Problem Solving', 'Communication', 'Leadership']} />
               </div>
