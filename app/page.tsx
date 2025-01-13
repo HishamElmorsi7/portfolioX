@@ -174,6 +174,7 @@ export default function Home() {
   )
 }
 
+
 function Section({ id, title, children }) {
   return (
     <motion.section
