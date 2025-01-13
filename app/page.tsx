@@ -53,7 +53,7 @@ export default function Home() {
               <div className="text-xs tracking-widest text-neutral-500 uppercase">social</div>
               <div className="flex gap-4">
                 <SocialLink icon={<Github size={18} />} href="https://github.com/hishamelmorsi7" />
-                <SocialLink icon={<Linkedin size={18} />} href="https://linkedin.com/in/hmelmorsi" />
+                <SocialLink icon={<Linkedin size={18} />} href="https://www.linkedin.com/in/hishamelmorsi/" />
                 <SocialLink icon={<SiMedium size={18} />} href="https://medium.com/@hmelmorsi" />
                 <SocialLink icon={<SiProducthunt size={18} />} href="https://www.producthunt.com/@hisham_elmorsi" />
               </div>
@@ -132,8 +132,8 @@ export default function Home() {
                 <SkillGroup title="Languages" items={['JavaScript (Node)', 'Ruby', 'PHP']} />
                 <SkillGroup title="Databases" items={['MongoDB', 'MySQL']} />
                 <SkillGroup title="Frameworks" items={['Express', 'React', 'Next.js']} />
-                <SkillGroup title="Tools" items={['Docker', 'Git', 'GitHub']} />
-                <SkillGroup title="Practices" items={['OOP', 'Design Patterns', 'TDD']} />
+                <SkillGroup title="Tools" items={['Git', 'GitHub']} />
+                <SkillGroup title="Practices" items={['OOP', 'Design Patterns']} />
                 <SkillGroup title="Soft Skills" items={['Problem Solving', 'Communication', 'Leadership']} />
               </div>
             </Section>
@@ -156,14 +156,14 @@ export default function Home() {
                 <ProjectCard 
                   title="MVC Mini Framework"
                   tech="Node.js, Express"
-                  description="A mini PHP framework with built-in CRUD App"
+                  description="A mini PHP framework with built-in CRUD App        —"
                   link="https://github.com/HishamElmorsi7/mvc_mini_framework"
                 />
                 <ProjectCard 
                   title="KnightTravils"
                   tech="Ruby"
                   description="Chess pathfinding algorithm implementation using BFS"
-                  link="https://github.com/HishamElmorsi7/Knights_Travils/blob/master/knights_travils.rb"
+                  link="https://github.com/HishamElmorsi7/Knights_Travils"
                 />
               </div>
             </Section>
